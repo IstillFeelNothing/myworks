@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Mohave:wght@300&display=swap');
+body{
+    font-family: 'Mohave', sans-serif;
+    background-color: #DCDCDC;
+}
+.text{
+    padding-bottom: 10%;
+    border-bottom: 1px solid black;
+}
+a{
+    text-decoration: none;
+    text-decoration: bolder;
+    color: black;
+}
+h1,.title{
+    text-align: center;
+}
+.sprint1{
+    margin: 0 auto;
+    height: 450px;
+    width: 65%;
+    background-color: white;
+    border-radius: 4%;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.sprint2{
+    margin: 0 auto;
+    height: 270px;
+    width: 65%;
+    background-color: white;
+    border-radius: 4%;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.span{
+    font-size: 170%;
+    margin: 2%;
+}
+.lessons{
+    margin-left: 5%;
+    height: 120px;
+    width: 250px;
+    -webkit-box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.4); 
+    box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.4);
+    float: left;
+    background-color: white;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+}
+.bottom{
+    margin-top: 5%;
+}
+.sprint1:hover{
+    background-color: #DAEAAE;
+}
+.lessons:hover{
+    -webkit-box-shadow: 7px 6px 10px 4px rgba(0,0,0,0.4); 
+    box-shadow: 7px 6px 10px 4px rgba(0,0,0,0.4);
+    background-color: white;
+}
+.btn{
+    width: 40px;
+    margin-left: 5%;
+    border: 2px solid #E6A8D7;
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    display: inline;
+}
+.btn:hover{
+    background-color: #E6A8D7;
+}
+.les{
+    float: right;
+    margin-right: 5%;
+    margin-bottom: 10%;
+    margin-top: 0;
+    padding-bottom: 30%;
+}
+.sprint2:hover{
+    background-color: #DAEAAE;
+}
+.lesson5{
+    margin-top: 5%;
+}
