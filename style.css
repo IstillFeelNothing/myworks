@@ -12,39 +12,39 @@ a{
     text-decoration: bolder;
     color: black;
 }
-h1,.title{
+h1{
+    text-align: center;
+    font-weight: normal;
+}
+h1+p{
+    text-align: center;
+}
+.title{
     text-align: center;
 }
 .sprint1{
-    margin: 0 auto;
-    height: 450px;
-    width: 65%;
+    padding: 20px;
     background-color: white;
-    border-radius: 4%;
+    border-radius: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
     -webkit-transition: all 0.3s ease;;
     -moz-transition: all 0.3s ease;;
     -o-transition: all 0.3s ease;;
     transition: all 0.3s ease;
-}
-.sprint2{
-    margin: 0 auto;
-    height: 270px;
-    width: 65%;
-    background-color: white;
-    border-radius: 4%;
-    -webkit-transition: all 0.3s ease;;
-    -moz-transition: all 0.3s ease;;
-    -o-transition: all 0.3s ease;;
-    transition: all 0.3s ease;
-}
-.span{
-    font-size: 170%;
-    margin: 2%;
 }
 .lessons{
-    margin-left: 5%;
-    height: 120px;
-    width: 250px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin-right: 40px;
+    height: 150px;
+    width: 300px;
     -webkit-box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.4); 
     box-shadow: 0px 2px 15px 4px rgba(0,0,0,0.4);
     float: left;
@@ -87,6 +87,12 @@ h1,.title{
 }
 .sprint2:hover{
     background-color: #DAEAAE;
+}
+.sprint1 p:first-child{
+    width: 100%;
+}
+.sprint1 > p{
+    font-size: 20px;
 }
 .lesson5{
     margin-top: 5%;
