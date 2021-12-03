@@ -100,3 +100,27 @@ h1+p{
 .lesson4{
     margin-top: auto;
 }
+.fixed{
+    -webkit-transition: all 0.3s ease;;
+    -moz-transition: all 0.3s ease;;
+    -o-transition: all 0.3s ease;;
+    transition: all 0.3s ease;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    width: 70px;
+    height: 70px;
+    background-color: #DAEAAE;
+    border-radius: 50%;
+}
+.fas{
+    font-size: 40px;
+}
+.fixed:hover{
+    -webkit-box-shadow: -1px 1px 15px 3px rgba(0,0,0,0.4); 
+box-shadow: -1px 1px 15px 3px rgba(0,0,0,0.4);
+    background-color: darkseagreen;
+}
